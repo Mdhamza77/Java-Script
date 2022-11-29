@@ -2,5 +2,11 @@ p{
     border-radius: 10px;
     display: inline-block;
     text-align: center;
-    
+    padding: 2px 2px;
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+p:hover {
+    background-color: skyblue;
 }
