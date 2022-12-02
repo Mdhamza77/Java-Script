@@ -16,13 +16,10 @@ name()
 
 var key = "123"
 if(key == "123"){
-    alert("The Key is matched")
+    key = 223;
+    console.log(key)
+    console.log("The Key is matched")
 }
 else {
-    alert("Mismatch")
+    console.log("Mismatch")
 }
-
-
-
-
-
