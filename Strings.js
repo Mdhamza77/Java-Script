@@ -71,3 +71,15 @@ else if(b>a){
 else{
     console.log(`${a1} and ${b1} are Equal`)
 }
+
+// Primitive String and String Object
+
+const strprem1 = "primitive"
+const strprem2 = String(11)
+const strprem3 = String(true)
+const strobj  = new String("Welcome to str Objects")
+
+console.log(typeof strprem1)
+console.log(typeof strprem2)
+console.log(typeof strprem3)
+console.log(typeof strobj)
