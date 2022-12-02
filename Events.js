@@ -15,7 +15,7 @@ const myImage = document.querySelector("img")
  }
  
 
- //
+ //  Username Prompt using Onclick Event handler
  const button = document.querySelector("button")
  const heading = document.querySelector("h2")
 
@@ -33,3 +33,4 @@ const myImage = document.querySelector("img")
  button.onclick = () => {
     User()
  }
+

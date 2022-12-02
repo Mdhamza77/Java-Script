@@ -23,3 +23,8 @@ if(key == "123"){
 else {
     console.log("Mismatch")
 }
+
+var float = "33.0000233"
+float++;
+console.log(float + 4) 
+
