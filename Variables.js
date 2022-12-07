@@ -1,6 +1,7 @@
 
 const x = {xx:"Christian bale"}
 let  y = 180
+
 function name() {
     if(x != null){
         x.xx = "Christopher"

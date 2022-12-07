@@ -21,12 +21,6 @@ var anony = function(parameter) {
 
 anony("Parameterized")
 
-// Arrow function() 
-
-const org = [2,4,6,8]
-const mod = org.map((item)=> item * 4 )
-console.log(mod)
-
 // Return type function 
 
 function ret(a,b){
