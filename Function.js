@@ -37,3 +37,13 @@ function ret(a,b){
 let x = 20 
 let y = 40
 console.log(ret(x,y))
+
+// function expression 
+
+
+
+(function(x,y){
+    const z = x * y
+    return
+})(2,4);
+
