@@ -35,7 +35,7 @@ console.log(city)
 
 const cities = ['Manchester', 'Liverpool', 'Edinburgh', 'Carlisle'];
 const index = cities.indexOf('Liverpool');
-cities.splice(index, 1);
+cities.splice(index, 2,'wer');
 console.log(cities);
 
 // Accessing Every item 
