@@ -16,7 +16,7 @@ const data = {
 console.log(data.name[0] +' ' + data.name[1])
 console.log(data.bio()) // dot notation
 console.log(data["age"] = 33)  // setting object Members
-console.log(data.bio())
+data.bio()
 
 // Bracket Notation 
 
