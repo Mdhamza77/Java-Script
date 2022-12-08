@@ -30,3 +30,11 @@ float++;
 console.log(float + 4) 
 console.log(typeof float)
 
+
+// Null Type operators 
+// The null value represents the intentional absence of any object value. 
+//It is one of JavaScript's primitive values and is treated as falsy for boolean operations.
+
+const va = null ;
+console.log(va) 
+console.log(typeof null) // it is a bug
