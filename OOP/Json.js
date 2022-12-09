@@ -12,3 +12,10 @@ console.log(obj.count);
 console.log(obj.Prefix)
 
 console.log(obj.result);
+
+// Reviver 
+
+JSON.parse('{"1": 1, "2": 2, "3": {"4": 4, "5": {"6": 6}}}', (key, value) => {
+    console.log(key);
+    return value;
+})

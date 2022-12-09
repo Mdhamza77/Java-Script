@@ -1,0 +1,38 @@
+Functions are a block of Codes which can be re used by instansiating the function call()
+
+Types of Functions  :  
+   1.Function declaration  :  function def(parameters) {return parameters} ; def(arguments) ; to Invoke function 
+
+   2.Function Expression :  const exp =  function(params){return params} ; console.log(exp) or exp() ;
+
+   Main  difference between declaration and Expression is : 
+
+   The main difference between a function expression and a function declaration is the function name,
+   which can be omitted in function expressions to create anonymous functions.
+
+   2.1 Function Expression Hoisting   
+
+   console.log(notHoisted); // undefined
+   // Even though the variable name is hoisted,
+   // the definition isn't. so it's undefined.
+   notHoisted(); // TypeError: notHoisted is not a function
+
+   var notHoisted = function () {
+   console.log('bar');
+   };
+
+   2.2 Named Function Expression 
+   if you want to refer to current function of func body  
+   This name is then local only to the function body (scope). 
+
+   const ex ={ present : function () { }  }
+
+   console.log(ex.present) or ex.present()  
+
+   3. Arrow Function (*) - (*)
+
+   An arrow function expression is a compact alternative to a traditional function expression, 
+   Arrow functions don't have their own bindings to this, arguments, or super, and should not be used as methods.
+   Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
+   Arrow functions cannot use yield within their body and cannot be created as generator functions.
+

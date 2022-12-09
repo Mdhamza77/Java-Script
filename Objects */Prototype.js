@@ -42,3 +42,4 @@ const person = {
 
 const person2 = Object.create(person);
 person2.greet()
+
