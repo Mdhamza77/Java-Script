@@ -36,3 +36,9 @@ Types of Functions  :
    Arrow functions cannot be used as constructors. Calling them with new throws a TypeError. They also don't have access to the new.target keyword.
    Arrow functions cannot use yield within their body and cannot be created as generator functions.
 
+   (*) If the arrow function needs to call itself, use a named function expression instead. 
+     You can also assign the arrow function to a variable so it has a name.
+
+     Arrow Function cannot be used as Methods. 
+
+     

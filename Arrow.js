@@ -1,34 +1,25 @@
 
-const arguments = [1, 2, 3];
-const arr = () => arguments[0];
+//  No Parameter  
+let c = () => console.log( a + b *10 );
+const a= 66 
+const b = 55
+c()
 
-arr(); 
-
-function foo(n) {
-  const f = () => arguments[0] + n;
-  return f();
+// Block body Arroe Functions
+const func2 = (x, y) => {
+  return x + y;
 }
 
-console.log(foo(10));
+func2(33,66)
 
+// Returning Object Literal Using Arrow Function 
 
-// Arrow using function expressions
-const org = [2,4,6,8]
-const mod = org.map((item)=> { 
-  console.log(item)
-   item * 4 })
-console.log(mod.)
-//   2 [8,16,24,32]
-     
+const func = () => ({ foo: 1 });
+func()
 
+//No Binding Of Arguments.
 
-
-const dict = ['js' , 'Es6' , 'Rjs']
-
-const key = dict.map((e)=>
-   e.length)
-
-console.log(key)
-
-
+const args = ['1','Hamza','2','Muhammed']
+const arr = () => args[0] + args[1]
+arr()
 
