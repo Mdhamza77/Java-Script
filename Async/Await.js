@@ -30,3 +30,11 @@ x.then((data)=>{
 // 
 
 
+btn.addEventListener('click',async ()=>{
+    const x = await  al(nam.value,del.value)
+    .then((msg)=> out.textContent = msg)
+   .catch((error)=> out.textContent = `Could not set Alarm ${error}`)
+})
+
+
+
